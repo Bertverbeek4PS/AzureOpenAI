@@ -91,7 +91,7 @@ codeunit 50100 "Azure Open AI"
     var
         AzureOpenAIEndpoint: Text;
     begin
-        AzureOpenAIEndpoint := '';
+        AzureOpenAIEndpoint := '<Enter API endpoint here.>';
         exit(AzureOpenAIEndpoint);
     end;
 
@@ -99,7 +99,7 @@ codeunit 50100 "Azure Open AI"
     var
         AzureOpenAIKey: Text;
     begin
-        AzureOpenAIKey := '';
+        AzureOpenAIKey := '<Enter Open API key here.>';
         exit(AzureOpenAIKey);
     end;
 }
