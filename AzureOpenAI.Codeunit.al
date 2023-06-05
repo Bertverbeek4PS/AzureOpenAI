@@ -91,7 +91,7 @@ codeunit 50100 "Azure Open AI"
     var
         AzureOpenAIEndpoint: Text;
     begin
-        AzureOpenAIEndpoint := 'https://fpsazureopenaidalle.openai.azure.com/dalle/text-to-image?api-version=2022-08-03-preview';
+        AzureOpenAIEndpoint := '';
         exit(AzureOpenAIEndpoint);
     end;
 
@@ -99,7 +99,7 @@ codeunit 50100 "Azure Open AI"
     var
         AzureOpenAIKey: Text;
     begin
-        AzureOpenAIKey := 'bd5c65b233114e90a844aa079c58c66b';
+        AzureOpenAIKey := '';
         exit(AzureOpenAIKey);
     end;
 }
